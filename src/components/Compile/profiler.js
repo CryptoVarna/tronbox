@@ -221,6 +221,7 @@ module.exports = {
       // Include paths for Solidity .sols, specified in options.
       allPaths = allPaths.concat(paths)
 
+      options.resolver.options = { networks: options.networks }
       self.dependency_graph(allPaths, options.resolver, function (err, dependsGraph) {
         if (err) return callback(err)
 

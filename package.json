@@ -1,7 +1,7 @@
 {
   "name": "@cryptovarna/tronbox",
   "namespace": "tronprotocol",
-  "version": "2.7.24",
+  "version": "2.7.25",
   "description": "TronBox - Simple development framework for Tron",
   "keywords": [
     "TronBox",
