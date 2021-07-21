@@ -9,6 +9,8 @@ const downloader = require('./downloader')
 
 const command = new Command(require('./lib/commands'))
 
+process.env.TRONBOX_NAME = 'tronbox'
+
 const options = {
   logger: console
 }
